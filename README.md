@@ -25,7 +25,7 @@ Where `VEIC` corresponds a specific type of vehicle and his fuel use:
 * Motorcycle (MC): VEIC6A (gasohol fuel), VEIC6B (Flex-G and Flex-Eth fuel).
 * Others: VEIC 5 that represents taxis with fuel consumption of natural gas.
 
-Also, this notebook contents `Emissions Calculation for the Modeling Domain` section that it's important to calculate emissions rates considering the number of vechicles inside the modeling domain, based on Top-Down approximation. With this information, we can compare if the bottom_up approximation (using `wrfchemi_cbmz_fc.ncl` program) results are close to Top-Down results.
+Also, this notebook contents `Emissions Calculation for the Modeling Domain` section that it's important to calculate emissions rates considering the number of vehicles inside the modeling domain, based on Top-Down approximation. With this information, we can compare if the bottom_up approximation (using `wrfchemi_cbmz_fc.ncl` program) results are similar to Top-Down results.
 
 The second file *Road_Length.ipynb* is useful to process the output file from QGIS in `*.csv` format to `*.txt`.
 
